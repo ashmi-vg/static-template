@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.border{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./history-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    padding-left: 100px;
+}
+.navbar ul li{
+    list-style:none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    border-bottom: 1px solid ;
+    color: aliceblue;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+.space{
+    height: 90px;
+}
+.navbar1{
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo1{
+    padding-left: 100px;
+}
+.navbar1 ul li{
+    list-style:none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar1 ul li a{
+    text-decoration: none;
+    border-bottom: 3px solid rgb(182, 180, 180);
+    color: rgb(17, 51, 82);
+    font-style: italic;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+.border h3{
+    padding-left: 150px;
+    padding-top: 60px;
+    font-size: 120px;
+    color: rgb(97, 127, 148);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+}
+.border h3 span{
+    font-size: 35px;
+    color:  rgb(69, 88, 105);
+    padding: 10px;
+    padding-top: 70px;
+    letter-spacing: 0.1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.border h3 span hr{
+    width: 20px;
+    height: 15px;
+    background-color:  rgb(97, 127, 148);
+    border: none;
+}
+.border p{
+    padding-left: 210px;
+    font-size: 13px;
+    line-height: 22px;
+}
+.bg{
+    background-image: url(./slide-bg.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.cell{
+    
+    margin: 15px 10px 10px 15px;
+    overflow: hidden;
+    
+}
+.cell img{
+    
+    object-fit: cover;
+    
+    
+}
+.root{
+    width: 100%;
+    height: 146px;
+    background-color: white;
+}
+.root h3{
+    padding-left: 150px;
+    padding-top: 5px;
+    font-size: 120px;
+    color: rgb(97, 127, 148);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+}
+.root h3 span{
+    font-size: 35px;
+    color:  rgb(69, 88, 105);
+    padding: 10px;
+    padding-top: 63px;
+    letter-spacing: 0.1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.root h3 span hr{
+    width: 20px;
+    height: 19px;
+    background-color:  rgb(97, 127, 148);
+    border: none;
+}
+.root  p{
+    font-size: 15px;
+    position: absolute;
+    top: 1690px;
+    left: 450px;
+    line-height: 19px;
+}
+
+
+
+
+.pic{
+    background-image: url(./tab-bg.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.box{
+    background-color: white;
+    opacity: 0.8;
+    width: 140px;
+    height: 70px;
+    border: none ;
+    padding: 50px;
+    position: relative;
+    top: 40px;
+    left: 100px;
+    
+}
+.box h4{
+   position: absolute;
+   top: 10px;
+   left: 20px;
+   font-size: 25px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 700;
+}
+.box p{
+    font-size: 11px;
+    text-align: left;
+    line-height: 1px;
+    position: absolute;
+    left: 20px;
+}
+.tab{
+    width: 100%;
+    background-color: rgb(33, 37, 61);
+    height: 80px;
+}
+.logo2{
+    padding-left: 100px;
+    padding-top: 25px;
+}
+.tab p{
+    float: right;
+    padding-right: 150px;
+    padding-top: 35px;
+    font-style: italic;
+    font-size: small;
+    font-weight: bold;
+    color: rgb(56, 80, 97);
+}
+
+
+
+
+@media screen and (max-width: 900px)
+{
+  body{
+    width: 100%;
+  }
+  .navbar{
+    width: 55%;
+    margin: 10px;
+    
+}
+.logo{
+    padding-right: 100px;
+}
+
+.navbar ul li{
+    
+    margin: 0 10px;
+}
+}
